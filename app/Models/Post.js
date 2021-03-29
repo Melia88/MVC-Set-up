@@ -1,6 +1,6 @@
 // NOTE An object that holds all the information for the data per object.
 
-// NOTE this is the reamework for Post.js
+// NOTE this is the framework for Post.js
 // 
 
 export default class Post {
