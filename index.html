@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Post</title>
+</head>
+<!-- <body class="container-fluid"> -->
+  <!-- <div class="row" id="Template"></div> -->
+<body>
+  <form onsubmit="app.postController.createPost(event)">
+    <input type="text" name="body" placeholder="Your Post Here..." required />
+    <button type="submit">Post</button>
+
+    <!-- <button onclick="app.postController.createPost()">Post</button> -->
+
+  </form>
+    <div id="posts"></div>
+  <script src="app/main.js" type="module"></script>
+</body>
+</html>
